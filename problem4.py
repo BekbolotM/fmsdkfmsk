@@ -9,7 +9,7 @@ if a > b:
 else:
   print('B bolshe A')
 if c > d:
-  print('C bolshe B')
+  print('C bolshe D')
 else:
   print('B bolshe C')
 if e > f:
