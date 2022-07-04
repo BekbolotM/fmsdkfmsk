@@ -2,3 +2,7 @@ south_american_countries = ['Argentina', 'Bolivia', 'Brazil', 'Chile', 'Colombia
 dupes = [x for n, x in enumerate(south_american_countries) if x in south_american_countries[:n]]
 south_american_countries.remove('Suriname')
 print(south_american_countries)
+index = 0
+for value in south_american_countries:
+  print(index, value)
+  index += 1
